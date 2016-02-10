@@ -2,7 +2,7 @@ package net.spacegeek224.hexlib;
 
 import org.bukkit.ChatColor;
 
-public class ColoredString extends String {
+public class ColoredString {
   private String original = "";
   private String res = "";
   public ColoredString(String s) {
