@@ -18,12 +18,11 @@ public class ColoredString {
 	   * a the simplest form of a class method, just to
 	   * show the usage of various javadoc Tags.
 	   * @param string  This is the second parameter to addNum method
-	   * @return String This returns sum of numA and numB.
+	   * @return nothing.
 	   */
 	public ColoredString(String string) {
 		this.original = string;
 		this.res = ChatColor.translateAlternateColorCodes('&',string);
-		return this.res;
 	}
 	public String getResult() {
 		return this.res;
