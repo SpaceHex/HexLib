@@ -12,6 +12,15 @@ public class ColoredString {
   
 	private String original;
 	private String res;
+	
+	/**
+	   * This method is used to add two integers. This is
+	   * a the simplest form of a class method, just to
+	   * show the usage of various javadoc Tags.
+	   * @param numA This is the first paramter to addNum method
+	   * @param numB  This is the second parameter to addNum method
+	   * @return int This returns sum of numA and numB.
+	   */
 	public ColoredString(String string) {
 		this.original = string;
 		this.res = ChatColor.translateAlternateColorCodes('&',string);
