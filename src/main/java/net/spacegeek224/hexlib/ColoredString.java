@@ -3,12 +3,13 @@ package net.spacegeek224.hexlib;
 import org.bukkit.ChatColor;
 
 public class ColoredString {
-  /**
+  
+	private String original;
+	private String res;
+	/**
      * Creates a new ColoredString
      * @param string String to convert
      */
-	private String original;
-private String res;
   public ColoredString(String string) {
     this.original = string;
     this.res = ChatColor.translateAlternateColorCodes('&',string);
