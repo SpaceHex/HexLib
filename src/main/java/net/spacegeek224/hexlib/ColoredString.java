@@ -8,7 +8,7 @@ public class ColoredString {
 	private String res;
 	/**
 	* Creates a new ColoredString
-	* @param string String to convert
+	* @param string string to convert
 	*/
 	public ColoredString(String string) {
 		this.original = string;
@@ -16,14 +16,14 @@ public class ColoredString {
 	}
 	/**
 	* Creates a new ColoredString
-	* @return String res
+	* @return res
 	*/
 	public String getResult() {
 		return this.res;
 	}
 	/**
 	* Creates a new ColoredString
-	* @return String original
+	* @return original
 	*/
 	public String getOriginal() {
 		return this.original;
