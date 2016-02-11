@@ -20,10 +20,10 @@ public class ColoredString {
 	private String original;
 	private String res;
 	/**
-	* Creates a new ColoredString
-	* 
-	* @param string string to convert
-	*/
+	 * Creates a new ColoredString
+	 * 
+	 * @param string string to convert
+	 */
 	public ColoredString(String string) {
 		this.original = string;
 		this.res = ChatColor.translateAlternateColorCodes('&',string);
