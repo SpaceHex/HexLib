@@ -16,16 +16,14 @@ public class ColoredString {
 	}
 	/**
 	* Creates a new ColoredString
-	* @param string String to convert
-	* @returns String res
+	* @return String res
 	*/
 	public String getResult() {
 		return this.res;
 	}
 	/**
 	* Creates a new ColoredString
-	* @param string String to convert
-	* @returns String original
+	* @return String original
 	*/
 	public String getOriginal() {
 		return this.original;
