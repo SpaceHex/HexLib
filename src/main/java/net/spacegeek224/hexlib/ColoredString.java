@@ -7,17 +7,27 @@ public class ColoredString {
 	private String original;
 	private String res;
 	/**
-     * Creates a new ColoredString
-     * @param string String to convert
-     */
-  public ColoredString(String string) {
-    this.original = string;
-    this.res = ChatColor.translateAlternateColorCodes('&',string);
-  }
-  public String getResult() {
-    return this.res;
-  }
-  public String getOriginal() {
-    return this.original;
-  }
+	* Creates a new ColoredString
+	* @param string String to convert
+	*/
+	public ColoredString(String string) {
+		this.original = string;
+		this.res = ChatColor.translateAlternateColorCodes('&',string);
+	}
+	/**
+	* Creates a new ColoredString
+	* @param string String to convert
+	* @returns String res
+	*/
+	public String getResult() {
+		return this.res;
+	}
+	/**
+	* Creates a new ColoredString
+	* @param string String to convert
+	* @returns String original
+	*/
+	public String getOriginal() {
+		return this.original;
+	}
 }
