@@ -18,7 +18,6 @@ public class ColoredString {
 	   * a the simplest form of a class method, just to
 	   * show the usage of various javadoc Tags.
 	   * @param string  This is the second parameter to addNum method
-	   * @return nothing.
 	   */
 	public ColoredString(String string) {
 		this.original = string;
