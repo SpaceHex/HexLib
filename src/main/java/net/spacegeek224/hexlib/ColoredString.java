@@ -7,9 +7,11 @@ public class ColoredString {
      * Creates a new ColoredString
      * @param string String to convert
      */
+	private String original;
+private String res;
   public ColoredString(String string) {
-    this.original = s;
-    this.res = ChatColor.translateAlternateColorCodes('&',s);
+    this.original = string;
+    this.res = ChatColor.translateAlternateColorCodes('&',string);
   }
   public String getResult() {
     return this.res;
